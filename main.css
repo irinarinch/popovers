@@ -1,0 +1,80 @@
+body {
+  color: #333;  
+  margin: 0;
+}
+
+
+
+.btn {
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 250px;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.popover-header {
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: inherit;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.popover-body {
+  padding: 0.5rem 0.75rem;
+  color: #212529;
+}
+
+.popover {
+  width: 300px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;  
+}
+
+.arrow::before,
+.arrow::after {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  content: "";
+ 
+  border-style: solid;
+  border-width: 0.5rem 0.5rem 0;
+  border-color: transparent; 
+  
+}
+
+.arrow::before {
+  bottom: 0;
+  border-top-color: rgba(0,0,0,0.25);
+    
+}
+
+.arrow::after { 
+  
+  border-top-color: #fff;
+  
+}
+
+
+  
+
+
